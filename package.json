@@ -1,20 +1,31 @@
 {
-  "name": "ali-green-text-checker",
-  "version": "1.0.0",
+  "name": "ali-senstive-word",
+  "version": "1.0.1",
   "description": "a easy module for calling ali greenWeb text checker /green/text/scan",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ali",
-    "greenWeb",
-    "text",
-    "checker"
+    "green",
+    "senstive",
+    "detection"
   ],
   "author": "murux",
   "license": "ISC",
   "dependencies": {
     "uuid": "^3.2.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muruwu/wordChecker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Muruwu/wordChecker/issues"
+  },
+  "homepage": "https://github.com/Muruwu/wordChecker#readme"
 }

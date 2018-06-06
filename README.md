@@ -1,9 +1,9 @@
 # wordChecker
-> a easy module for calling ali greenWeb text checker /green/text/scan
+> a easy module for calling ali greenWeb sensitive_text checker /green/text/scan
 
 ## use age
 	```
-	const Spam = require('ali-green-text-checker');
+	const Spam = require('ali-senstive-word');
 
 	const spam = Spam({
 			  accessKeyId: '**',
