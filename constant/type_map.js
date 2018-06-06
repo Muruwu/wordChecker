@@ -9,6 +9,7 @@ module.exports = {
 	porn: '色情',
 	terrorism: '暴恐',
 	contraband: '违禁',
-	high_risk: '高危风险'
+	high_risk: '高危风险',
+	customized: '自定义敏感词'
   }
 }
