@@ -13,7 +13,7 @@
 	contraband: '违禁',
 	high_risk: '高危风险'
 
-## useage
+## usage
 	```
 	const Spam = require('ali-senstive-word');
 
@@ -24,9 +24,25 @@
 
 	// return a promise
 	const res = await spam.checkSpam(text, options); 
-	//{ Hit: true, Msg: '不通过', reason: '辱骂' }
+
+	可选填option
+	options: {
+		userId: string,  //辨识id
+		bizType: string, //业务类型，调用方从云盾内容安全申请所得。每个bizType对应不同的算法/模型。根据配置，后端可根据该字段对请求做不同处理。
+		clientInfo: {
+			ip: '127.0.0.1'
+			...
+
+		} 				// 客户端信息
+	}
+
+
+	//return { Hit: true, Msg: '不通过', reason: '辱骂' }
 	or
 	//{ Hit: false, Msg: '通过', reason: '辱骂' }
 
 
 	```
+
+## License
+	ISC
