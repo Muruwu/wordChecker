@@ -1,6 +1,6 @@
 {
   "name": "ali-senstive-word",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "a easy module for calling ali greenWeb text checker /green/text/scan",
   "main": "index.js",
   "scripts": {

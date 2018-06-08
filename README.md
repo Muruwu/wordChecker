@@ -37,12 +37,12 @@
 	}
 
 
-	//return { Hit: true, Msg: '不通过', reason: '辱骂' }
+	//return { isHit: true, Msg: '不通过', content: 'fuck', reason: '辱骂' }
 	or
-	//{ Hit: false, Msg: '通过', reason: '辱骂' }
+	//{ isHit: false, Msg: '通过', content: 'hello' }
 
 
 	```
 
 ## License
-	ISC
+ISC
